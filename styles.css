@@ -1,0 +1,176 @@
+ul li {
+  list-style: none;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #d0cfd8;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+}
+
+.about {
+  height: 350px;
+}
+
+@media (max-width: 1205px) {
+  .about {
+    height: 500px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about {
+    height: 400px;
+  }
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about ul strong {
+  margin-right: 10px;
+}
+
+.about ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.skills {
+  padding-bottom: 60px;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 400;
+  font-size: small;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar90 {
+  width: 90%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar80 {
+  width: 80%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar75 {
+  width: 75%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar70 {
+  width: 70%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar65 {
+  width: 65%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar60 {
+  width: 60%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar50 {
+  width: 50%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+.skills .progress-bar40 {
+  width: 40%;
+  height: 5px;
+  transition: 0.9s;
+  background-color: #0563bb;
+}
+
+/* .resume {
+  padding-bottom: 60px;
+} */
+
+.button {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* --------------
+Project
+----------------- */
+
+.text-center a {
+  color: blue;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.container .social {
+  display: flex;
+  justify-content: space-around;
+}
